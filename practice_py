@@ -1,0 +1,22 @@
+class Car:
+    # def __init__(self, type):
+    #     self.type = type
+
+    @staticmethod
+    def start():
+        print("Car started..")
+
+    @staticmethod
+    def stop():
+        print("Car stoped..")  
+
+class Toyoto(Car):
+    def __init__(self, name, type):
+        self.name = name 
+        self.type = type
+        print(self.type)
+
+car1 = Toyoto("Fortune", "Eletric") 
+car1.name
+car1.type
+
